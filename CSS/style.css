@@ -10,7 +10,7 @@
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
-    font-display:swap;
+    font-display: swap;
     src: url('../font/Gilroy-Regular.woff2') format('woff2'),
     url('../font/Gilroy-Regular.woff') format('woff');
 }
@@ -74,7 +74,16 @@ ui li{list-style: none;}
 img{vertical-align: top;}
 h1;h2;h3;h4;h5;{font-size:iherit;font-weight:400;}
 
+nav{
+    width: 300px;
+    height: 30px;
+}
+nav .li{
+    display: inline-block;
+}
+
 nav .buttonHowHelp{
+    display: inline-block;
     font-family: Gilroy;
     font-size: 16px;
     font-style: normal;
@@ -89,7 +98,9 @@ nav .buttonHowHelp{
     top: 0%;
     bottom: 0%;
 }
+
 nav .buttonAnimals{
+    display: inline-block;
     position: absolute;
     left: 0%;
     right: 1.14%;
@@ -101,10 +112,12 @@ nav .buttonAnimals{
     font-size: 16px;
     line-height: 19px;
     color: #242424;
-    Align: Left;
-    Vertical align: Top;
+    text-align: Left;
+    vertical-align: Top;
 }
+
 nav .buttonAboutUs{
+    display:inline-block ;
     position: absolute;
     left: 0%;
     right: 6.25%;
@@ -117,7 +130,9 @@ nav .buttonAboutUs{
     line-height: 19px;
     color:#242424;
 }
+
 div .help-life{
+    display: inline-block;
     font-family: Gilroy;
     font-style: normal;
     font-weight: bold;
@@ -126,14 +141,16 @@ div .help-life{
     display: flex;
     align-items: center;
 }
-h1{
+
+h1{ 
+    text-align: left;
     font-family: Gilroy;
-font-style: normal;
-font-weight: bold;
-font-size: 72px;
-line-height: 87px;
-display: flex;
-align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 87px;
+    display: flex;
+    align-items: center;
 }
 .charitableSociety{
     position: absolute;
@@ -147,4 +164,75 @@ align-items: center;
     font-size: 16px;
     line-height: 18px;
     color: #6B6B6B;
+}
+div .ourGoul{
+    position: absolute;
+    width: 659px;
+    height: 44px;
+    left: 110px;
+    top: 273px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #474747;
+}
+div .deadAnimals{
+    font-family: Gilroy;
+    font-style: normal;
+    align-items: Left;
+    vertical-align: Top;
+    fill: Solid;
+    color: #C78100;
+    position: absolute;
+    width: 428px;
+    height: 116px;
+    left: 110px;
+    top: 360px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.bigHeart{
+    position: absolute;
+    width: 466px;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #C78100;
+}
+.findAFriend{
+    position: absolute;
+    width: 466px;
+    height: 155px;
+    left: 0px;
+    top: 122px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+}
+.materialAid{
+    position: absolute;
+    width: 466px;
+    height: 88px;
+    left: 0px;
+    top: 297px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
 }
